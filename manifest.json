@@ -2,7 +2,7 @@
 "manifest_version": 2,
 "name": "KOANタイマーリセット by Takuma.K",
 "short_name": "TK-KOANタイマーリセット",
-"version": "0.0.0.3",
+"version": "0.0.0.5",
 "description": "KOANでのタイムアウトを無効にします.",
 
 "icons": {
@@ -21,5 +21,7 @@
 "content_scripts": [{
   "matches": ["https://koan.osaka-u.ac.jp/campusweb/*"],
   "js": ["jquery.min.js", "script/index.js"]
-}]
+}],
+
+"update_url": "https://takumakawashiro.github.io/ou-koan-timeout/packages/ou-koan-timeout.crx"
 }
