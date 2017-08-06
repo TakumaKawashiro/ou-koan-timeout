@@ -2,7 +2,7 @@
 "manifest_version": 2,
 "name": "KOANタイマーリセット by Takuma.K",
 "short_name": "TK-KOANタイマーリセット",
-"version": "0.0.0.2",
+"version": "0.0.0.3",
 "description": "KOANでのタイムアウトを無効にします.",
 
 "icons": {
